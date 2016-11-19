@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import codecs
 import telegram
 from datetime import datetime
 from telegram.error import NetworkError, Unauthorized
@@ -55,7 +54,7 @@ for i in range(numero_tormentoni):
 #print payload[0]#[3]
 #print payload[0][2]
 #print payload[0][2].decode('utf-8')
-print payload[0][2].decode('string-escape').decode("utf-8")
+#print payload[0][2].decode('string-escape').decode("utf-8")
 def fakeHumanTyping(PERSONAGGIO,chat_id,FORMATO):
 	cmd="sleep(0)"
 	global secondi_per_reazione_a_messaggio
@@ -69,7 +68,7 @@ def fakeHumanTyping(PERSONAGGIO,chat_id,FORMATO):
 		cmd="bot" + PERSONAGGIO + ".sendChatAction(chat_id=chat_id,action=\"upload_document\")"
 	if (FORMATO=="MP3"):
 		cmd="bot" + PERSONAGGIO + ".sendChatAction(chat_id=chat_id,action=\"upload_audio\")"
-	print cmd
+	#print cmd
 	eval(cmd)
 	sleep(secondi_per_comporre_messaggio)
 	
@@ -89,7 +88,7 @@ def manda_messaggio_iesimo(PERSONAGGIO,FORMATO,PAYLOAD,chat_id):
 	if (FORMATO=="IMG"):
 		f=open(CARTELLA_IMMAGINI + PAYLOAD,"rb")
 		cmd="bot" + PERSONAGGIO + ".sendPhoto(chat_id=chat_id,photo=f)"
-		print cmd
+		#print cmd
 		eval(cmd)
 		f.close()
 	if (FORMATO=="DOCUMENT"):
@@ -103,7 +102,7 @@ def manda_messaggio_iesimo(PERSONAGGIO,FORMATO,PAYLOAD,chat_id):
 	if (FORMATO=="MP3"):
 		f=open(CARTELLA_AUDIO + PAYLOAD,"rb")
 		cmd="bot" + PERSONAGGIO + ".sendVoice(chat_id=chat_id,voice=f)"
-		print cmd
+		#print cmd
 		eval(cmd)
 		f.close()
 
