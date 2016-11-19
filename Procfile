@@ -1,1 +1,1 @@
-web: python mazzoni.py
+worker: python mazzoni.py
