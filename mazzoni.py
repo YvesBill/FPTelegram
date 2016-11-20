@@ -43,15 +43,15 @@ payload=[]
 indices_found=[]
 #f=codecs.open("tormentoni.txt","r","utf-8")
 f=open("tormentoni.txt","r")
-row = f.read().split("\\n")
+row = f.read().split("\n")
 numero_tormentoni = len(row) -1
 f.close()
 
 #print row[0]
 
 for i in range(numero_tormentoni):
-	keywords.append(	row[i].split("\\t")[0]	)
-	arr = row[i].split("\\t")
+	keywords.append(	row[i].split("\t")[0]	)
+	arr = row[i].split("\t")
 	payload.append(arr[1:])
 #print payload[0]#[3]
 #print payload[0][2]
@@ -63,13 +63,13 @@ def fakeHumanTyping(PERSONAGGIO,chat_id,FORMATO):
 	global secondi_per_comporre_messaggio
 	sleep(secondi_per_reazione_a_messaggio)
 	if (FORMATO=="TXT"):
-		cmd="bot" + PERSONAGGIO + ".sendChatAction(chat_id=chat_id,action=\\"typing\\")"
+		cmd="bot" + PERSONAGGIO + ".sendChatAction(chat_id=chat_id,action=\"typing\")"
 	if (FORMATO=="IMG"):
-		cmd="bot" + PERSONAGGIO + ".sendChatAction(chat_id=chat_id,action=\\"upload_photo\\")"
+		cmd="bot" + PERSONAGGIO + ".sendChatAction(chat_id=chat_id,action=\"upload_photo\")"
 	if (FORMATO=="DOCUMENT"):
-		cmd="bot" + PERSONAGGIO + ".sendChatAction(chat_id=chat_id,action=\\"upload_document\\")"
+		cmd="bot" + PERSONAGGIO + ".sendChatAction(chat_id=chat_id,action=\"upload_document\")"
 	if (FORMATO=="MP3"):
-		cmd="bot" + PERSONAGGIO + ".sendChatAction(chat_id=chat_id,action=\\"upload_audio\\")"
+		cmd="bot" + PERSONAGGIO + ".sendChatAction(chat_id=chat_id,action=\"upload_audio\")"
 	#print cmd
 	eval(cmd)
 	sleep(secondi_per_comporre_messaggio)
@@ -78,14 +78,14 @@ def manda_messaggio_iesimo(PERSONAGGIO,FORMATO,PAYLOAD,chat_id):
 	if (FORMATO=="TXT"):
 		#<bestemmie>
 		#PAYLOAD può contenere sia EMOTICON che parole ACCENTATE e solo co sto stratagemma me le pesca tutte e due
-		PAYLOAD = PAYLOAD.decode('utf-8').encode('unicode-escape').replace('\\\\\\\\', '\\\\').decode('unicode-escape') 
+		PAYLOAD = PAYLOAD.decode('utf-8').encode('unicode-escape').replace('\\\\', '\\').decode('unicode-escape') 
 		#http://stackoverflow.com/questions/40640838/print-unicode-string-containing-both-accented-characters-and-emoticons/40641201?noredirect=1#comment68516872_40641201
 		#</bestemmie>
-		PAYLOAD = PAYLOAD.replace("<A CAPO>","\\n")
-		PAYLOAD=PAYLOAD.replace("'","\\'")
+		PAYLOAD = PAYLOAD.replace("<A CAPO>","\n")
+		PAYLOAD=PAYLOAD.replace("'","\'")
 	fakeHumanTyping(PERSONAGGIO,chat_id,FORMATO)
 	if (FORMATO=="TXT"):
-		cmd="bot" + PERSONAGGIO + ".sendMessage(chat_id=chat_id,parse_mode=\\"Markdown\\",text=PAYLOAD)"
+		cmd="bot" + PERSONAGGIO + ".sendMessage(chat_id=chat_id,parse_mode=\"Markdown\",text=PAYLOAD)"
 		eval(cmd)
 	if (FORMATO=="IMG"):
 		f=open(CARTELLA_IMMAGINI + PAYLOAD,"rb")
@@ -141,7 +141,7 @@ def echo(botMAZZONI):
 					casuale = indices_found[	randint(0,len(indices_found)-1)	]
 					#print "casuale:" + str(casuale)
 					per_non_essere_troppo_ripetitivo = randint(1, 10)
-					if per_non_essere_troppo_ripetitivo > 3:
+					if per_non_essere_troppo_ripetitivo > 2:
 						manda_tutto_il_thread_di_messaggi(chat_id,casuale)
 		except IndexError:
 			print "attrerr"
