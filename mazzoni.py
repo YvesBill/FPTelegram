@@ -141,10 +141,11 @@ def echo(botMAZZONI):
 					casuale = indices_found[	randint(0,len(indices_found)-1)	]
 					#print "casuale:" + str(casuale)
 					per_non_essere_troppo_ripetitivo = randint(1, 10)
-					if per_non_essere_troppo_ripetitivo > 2:
+					if per_non_essere_troppo_ripetitivo > 3:
 						manda_tutto_il_thread_di_messaggi(chat_id,casuale)
 		except IndexError:
 			print "attrerr"
+			continue
 
 while True:
 	try:
