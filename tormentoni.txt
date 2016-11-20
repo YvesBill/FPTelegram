@@ -17,7 +17,7 @@ CIRCUITO	MAZZONI	TXT	Ivan Capelli ci introduce ai segreti di questo circuito...
 MONACO	MAZZONI	TXT	Monaco e sempre una grande sfiga...rifacciamo dai.. ho detto sfiga..
 MONACO	MAZZONI	TXT	Monaco e sempre una grande sfida...<A CAPO>*Tiè!!! Questa non te l aspettavi eh!?*
 MONACO	MAZZONI	TXT	Mi piace il circuito di Monaco perchè pieno di sfiga.. oops, ho detto sfiga, rifacciamo...
-MONACO1	MAZZONI	TXT	Il circuito di Monaco è pieno di figa, vero Ivan?	IVAN	TXT	EFFETTO situato PENDOLO!!
+MONACO	MAZZONI	TXT	Il circuito di Monaco è pieno di figa, vero Ivan?	IVAN	TXT	EFFETTO situato PENDOLO!!
 FRATELLI	MAZZONI	TXT	Il circuito del Messico, intitolato ai fratelli Rodriguez..	IVAN	TXT	Basta Gianfranco!! Hai rotto il cazzo co' sta storia dei fratelli Rodriguez!
 MESSICO	MAZZONI	TXT	Il circuito del Messico, intitolato ai fratelli Rodriguez..
 MESSICO	MAZZONI	TXT	Messico?! Andalè a riva ariva!!!
@@ -51,9 +51,9 @@ TOTO	TOTO	MP3	federicatoto.mp3
 FEDERICA	TOTO	MP3	federicatoto.mp3
 COLLEGAMENTO	MAZZONI	MP3	apertura.mp3
 IMPAZZITO	MAZZONI	MP3	aperturadistorto.mp3
-WOLLF	TOTO	MP3	federicatoto.mp3
+WOLF	TOTO	MP3	federicatoto.mp3
 MASOLIN	TOTO	MP3	federicatoto.mp3
-CICLIS	MAZZONI	MP3	ciclismo.mp3
+CICLISMO	MAZZONI	MP3	ciclismo.mp3
 BICI	MAZZONI	MP3	ciclismo.mp3
 HORNER	MAZZONI	MP3	horner.mp3
 DAVANTI	MAZZONI	MP3	davanti.mp3
@@ -72,9 +72,9 @@ MCLAREN	ALONSO	TXT	Che gran squadra la Mclaren.<A CAPO>Ho sempre sognato di corr
 MCLAREN	ALONSO	TXT	Che gran squadra la Mclaren.<A CAPO>Ho sempre sognato di correre per questo Team!!!<A CAPO>Sono venuto qui per vincere, dal momento che in Ferrari arrivavo sempre secondo	ALONSO	TXT	forse l'ho gia' detto...  \U0001F914  \U0001F602 + \U0001F61C
 FRENATA	MAZZONI	MP3	frenata.mp3
 STACCATA	MAZZONI	MP3	frenata.mp3
-DOMAND	ROSBERG	MP3	domanda.mp3
-SONDAGG	ROSBERG	MP3	domanda.mp3
-HUMO	ALONSO	MP3	humor.mp3
+DOMANDA	ROSBERG	MP3	domanda.mp3
+SONDAGGIO	ROSBERG	MP3	domanda.mp3
+HUMOR	ALONSO	MP3	humor.mp3
 ENGINE	ALONSO	MP3	gp2engine.mp3
 FUCK	VETTEL	STICKER	BQADBAADBQEAAiIMPgv2X7ZdP5Z9FgI
 FUCK	ARRIVABENE	TXT	testa bassa e lavorare
