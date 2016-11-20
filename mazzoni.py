@@ -126,9 +126,12 @@ def echo(botMAZZONI):
 		update_id = update.update_id + 1
 
 		try:
-			if update.message.new_chat_member:  # your bot can receive updates without messages
-				new_user = update.message.new_chat_member
-				botMAZZONI.sendMessage(chat_id = chat_id, text ="Un cordiale saluto a " + new_user.first_name + " da Gianfranco Mazzoni e Ivan Capelli")
+			try:
+				if update.message.new_chat_member:  # your bot can receive updates without messages
+					new_user = update.message.new_chat_member
+					botMAZZONI.sendMessage(chat_id = chat_id, text ="Un cordiale saluto a " + new_user.first_name + " da Gianfranco Mazzoni e Ivan Capelli")
+			except:
+				continue
 		
 			if update.message.text:  # your bot can receive updates without messages
 				#print update.message.text
