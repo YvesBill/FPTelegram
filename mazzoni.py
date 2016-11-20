@@ -23,10 +23,12 @@ botRAIKKONEN = telegram.Bot('278579717:AAGzqiKwMUaz2yYk__6aAkljRRS-sIL0Gu4')
 botVETTEL = telegram.Bot('207764873:AAFOgZm85E4ZZGtrkPfzq2BEp8tOJnW5m-g')
 botARRIVABENE = telegram.Bot('243076778:AAE8Cj6P5DfM5_4VcIjTWvIwQG6YRQ6eD78')
 botBORTUZZO = telegram.Bot('194879571:AAFjP06lvg_TowUIwYzot2YcUrWcoc0wFkg')
+botTOTO = telegram.Bot('246745177:AAFjWc2q47f14wkCUx9bDn3bbSpaexBAwCc')
+botROSBERG = telegram.Bot('271080065:AAEYbz1i14Jq_ZrYSVUYJUMkE7y9F944p8s')
 '''
 
-bot = telegram.Bot('')
-bot = telegram.Bot('')
+
+
 '''
 
 try:
