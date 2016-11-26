@@ -14,9 +14,9 @@ CARTELLA_AUDIO = "./audio/"
 CARTELLA_IMMAGINI="./immagini/"
 
 #bot = telegram.Bot('299756937:AAEtQEy5BFxQwKIun9--C6il4tTMRDZHAk0') #mazzoni_bot
-botMAZZONI = telegram.Bot('294867369:AAEBirsrcR-YnhlQr9hUEy-BaxeMk7ooX0w') #mazzoniprovabot
-botSTELLA = telegram.Bot('276461067:AAHWwLmORadqqGY3LmExZmNgQI-amBlHQsQ') #mazzoniprovabot
-botIVAN = telegram.Bot('257606238:AAG2JbWHeFKoaY2uQt-Bjk9rLhNmVy7kHrU') #mazzoniprovabot
+botMAZZONI = telegram.Bot('316562823:AAHwslod-hSg1Zxk2zJgFx6ntmaM3yNzjeE') #mazzoniprovabot
+botSTELLA = telegram.Bot('261195408:AAG6ZFN_bXD0qYXM6nu33jmiRJhvF-29X7w') #mazzoniprovabot
+botIVAN = telegram.Bot('321203831:AAGwlLcerOyj2u_h8XlHKc4EUnovpq49_H8') #mazzoniprovabot
 botING_BRUNO = telegram.Bot('279477818:AAHg1Odi7OJB4fCqgSILf8ELaLJt3muzmRk') #mazzoniprovabot
 botALONSO = telegram.Bot('271566273:AAH4ChytBBw1fQOWrcQxCKchum_ApsbmUaY') #mazzoniprovabot
 botRAIKKONEN = telegram.Bot('278579717:AAGzqiKwMUaz2yYk__6aAkljRRS-sIL0Gu4')
