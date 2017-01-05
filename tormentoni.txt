@@ -2,16 +2,8 @@ SILVERSTONE	MAZZONI	TXT	Il circuito di Silverstone è a circa 80km a nord di Rom
 SILVERSTONE	MAZZONI	TXT	Silverstone: Le ragioni storiche dicono Gran Bretagna, quelle Mazzoniane Italia
 SILVERSTONE	MAZZONI	TXT	Il circuito di Silverstone è... bellissimo!
 SILVERSTONE	MAZZONI	TXT	Il circuito di Silverstone è... PRINK, RISPARMI E STAMPI IL DOPPIO!!!
-BELLA	MAZZONI	TXT	Conosco io una tipa carina, ve la presento...	ING_BRUNO	TXT	Vai Stella!!
-IDEM	MAZZONI	TXT	diamo la parola a stella	ING_BRUNO	TXT	Vai Stella!!!	STELLA	TXT	dentro exec dentro tormentoni.txt
-IDEM	MAZZONI	TXT	stella?
 EMOTICON	MAZZONI	TXT	ciao \U0001F914 ciao
 INTERVISTA	MAZZONI	TXT	A proposito di interviste, colleghiamoci con Stella Bruno che ha un'ospite speciale
-PROVA	MAZZONI	TXT	Ivan, dov'è Silverstone?	IVAN	TXT	ah non lo so io!!
-MERDA	MAZZONI	TXT	Ivan, dov'è Silverstone?	IVAN	TXT	Ah non lo so io!!
-NUOVA	MAZZONI	TXT	Ivan, dov'è Silverstone?	IVAN	TXT	Ah non lo so io!!
-NUOVA	MAZZONI	TXT	Ivan, dov'è Silverstone?	IVAN	TXT	Ah non lo so io!!
-PROVA	MAZZONI	TXT	Ivan, dov'è situato Silverstone?	IVAN	TXT	EFFETTO situato PENDOLO!!
 SILVERSTONE	MAZZONI	TXT	Il circuito di Silverstone è a circa 80km a nord di Londra.<A CAPO>*Tie'!!! Questa non te l'aspettavi eh!?*
 CIRCUITO	MAZZONI	TXT	Ivan Capelli ci introduce ai segreti di questo circuito...
 MONACO	MAZZONI	TXT	Monaco e sempre una grande sfiga...rifacciamo dai.. ho detto sfiga..

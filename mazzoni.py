@@ -22,7 +22,7 @@ botALONSO = telegram.Bot('306275959:AAHn7jaH5n26JRRaHo3K6M5TmHwUujz4uE8') #mazzo
 botRAIKKONEN = telegram.Bot('299938640:AAFby__wYPvEH4QCmzHja1TTQKi52x7zFvQ')
 botVETTEL = telegram.Bot('326337719:AAGn3AatMCiNplY-gMcmTlbDigL_PGwzaN0')
 botARRIVABENE = telegram.Bot('243076778:AAE8Cj6P5DfM5_4VcIjTWvIwQG6YRQ6eD78')
-botBORTUZZO = telegram.Bot('194879571:AAFjP06lvg_TowUIwYzot2YcUrWcoc0wFkg')
+botBORTUZZO = telegram.Bot('274890721:AAEZgWfQFxXJ3VoWTtKhEVD5f9IyaHYPeec')
 botTOTO = telegram.Bot('246745177:AAFjWc2q47f14wkCUx9bDn3bbSpaexBAwCc')
 botROSBERG = telegram.Bot('271080065:AAEYbz1i14Jq_ZrYSVUYJUMkE7y9F944p8s')
 '''
@@ -144,7 +144,7 @@ def echo(botMAZZONI):
 					casuale = indices_found[	randint(0,len(indices_found)-1)	]
 					#print "casuale:" + str(casuale)
 					per_non_essere_troppo_ripetitivo = randint(1, 10)
-					if per_non_essere_troppo_ripetitivo > 3:
+					if per_non_essere_troppo_ripetitivo > 5:
 						manda_tutto_il_thread_di_messaggi(chat_id,casuale)
 		except IndexError:
 			print "attrerr"
