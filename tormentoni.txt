@@ -1,29 +1,8 @@
-SILVERSTONE	MAZZONI	TXT	Il circuito di Silverstone è a circa 80km a nord di Roma. \U0001F914 \U0001F914 \U0001F914	
-SILVERSTONE	MAZZONI	TXT	Silverstone: Le ragioni storiche dicono Gran Bretagna, quelle Mazzoniane Italia
-SILVERSTONE	MAZZONI	TXT	Il circuito di Silverstone è... bellissimo!
-SILVERSTONE	MAZZONI	TXT	Il circuito di Silverstone è... PRINK, RISPARMI E STAMPI IL DOPPIO!!!
-EMOTICON	MAZZONI	TXT	ciao \U0001F914 ciao
-INTERVISTA	MAZZONI	TXT	A proposito di interviste, colleghiamoci con Stella Bruno che ha un'ospite speciale
-SILVERSTONE	MAZZONI	TXT	Il circuito di Silverstone è a circa 80km a nord di Londra.<A CAPO>*Tie'!!! Questa non te l'aspettavi eh!?*
-CIRCUITO	MAZZONI	TXT	Ivan Capelli ci introduce ai segreti di questo circuito...
-MONACO	MAZZONI	TXT	Monaco e sempre una grande sfiga...rifacciamo dai.. ho detto sfiga..
-MONACO	MAZZONI	TXT	Monaco e sempre una grande sfida...<A CAPO>*Tiè!!! Questa non te l aspettavi eh!?*
-MONACO	MAZZONI	TXT	Mi piace il circuito di Monaco perchè pieno di sfiga.. oops, ho detto sfiga, rifacciamo...
-MONACO	MAZZONI	TXT	Il circuito di Monaco è pieno di figa, vero Ivan?	IVAN	TXT	EFFETTO situato PENDOLO!!
-FRATELLI	MAZZONI	TXT	Il circuito del Messico, intitolato ai fratelli Rodriguez..	IVAN	TXT	Basta Gianfranco!! Hai rotto il cazzo co' sta storia dei fratelli Rodriguez!
-MESSICO	MAZZONI	TXT	Il circuito del Messico, intitolato ai fratelli Rodriguez..
-MESSICO	MAZZONI	TXT	Messico?! Andalè a riva ariva!!!
 KIMI	RAIKKONEN	TXT	Bwoah... 
 DOVE ERI	RAIKKONEN	TXT	I was having a shit...!!
 DOVE SEI	RAIKKONEN	TXT	I was having a shit...!!
 DOVE ERA	RAIKKONEN	TXT	I was having a shit...!!
-DONNE	MAZZONI	TXT	A proposito di donne,sarebbe interessante avere almeno una donna come pilota in Formula 1..<A CAPO>Forse quel volpone dell'Ingegner Bruno se lo augura...!	ING_BRUNO	TXT	Perche' tu, Gianfranco, non te lo auguri?!?!")	MAZZONI	TXT	.....Cos'avra' voluto dire?!? \U0001F914 \U0001F914  \U0001F914	ING_BRUNO	MP3	capito.mp3	ING_BRUNO	IMG	troll.jpg	ING_BRUNO	TXT	#likeaboss \U0001F60E
-EUROPA	MAZZONI	TXT	Baku: Le ragioni storiche dicono Europa, quelle politiche Asia
-EUROPA	MAZZONI	TXT	Baku: Le ragioni storiche dicono Silverstone, quelle politiche Roma
-BELEN	MAZZONI	TXT	Il circuito del Messico, intitolato ai fratelli Rodriguez..
-INTERLAGOS	MAZZONI	TXT	Tra l'altro, piccolo aneddoto, la nonna di Barrichello abitava qua vicino e il piccolo Rubens e' cresciuto con il boato dei motori
-SINGAPORE	MAZZONI	TXT	Una piccolo orgoglio per l'Italia qui a Singapore:<A CAPO>Infatti tutti gli impianti di illuminazione sono stati installati da una piccola azienda sita nella provincia di Parma.	ING_BRUNO	TXT	Davvero Gianfranco?!<A CAPO>E' solo la quindicesima volta che lo dici...
-CIAO	MAZZONI	MP3	saluto.mp3
+ CIAO	MAZZONI	MP3	saluto.mp3
 MECCANICA	ING_BRUNO	TXT	E' la barra antirollio...
 VECCHI	ING_BRUNO	MP3	vecchio.mp3
 VECCHIO	ING_BRUNO	MP3	vecchio.mp3
@@ -58,19 +37,12 @@ DUCT	MAZZONI	MP3	duck.mp3
 IANNONE	ING_BRUNO	TXT	Beato Iannone che si bomba la Belen!!
 DISCORSO	MAZZONI	MP3	discorso.mp3
 CAPITO	BORTUZZO	MP3	capito.mp3
-STELLA	ING_BRUNO	TXT	Stella stellina, la notte si avvicina..
-MCLAREN	ALONSO	TXT	Che gran squadra la Mclaren.<A CAPO>Ho sempre sognato di correre per questo Team!!!<A CAPO>Sono venuto qui per vincere, dal momento che in Ferrari arrivavo sempre secondo	ALONSO	IMG	deal.jpg	ALONSO	TXT	non per essere ripetitivo,ma...
-MCLAREN	ALONSO	TXT	Che gran squadra la Mclaren.<A CAPO>Ho sempre sognato di correre per questo Team!!!<A CAPO>Sono venuto qui per vincere, dal momento che in Ferrari arrivavo sempre secondo	ALONSO	TXT	l'ho mai detto durante le interviste?!?!")
-MCLAREN	ALONSO	TXT	Che gran squadra la Mclaren.<A CAPO>Ho sempre sognato di correre per questo Team!!!<A CAPO>Sono venuto qui per vincere, dal momento che in Ferrari arrivavo sempre secondo	ALONSO	TXT	forse l'ho gia' detto...  \U0001F914  \U0001F602 + \U0001F61C
 FRENATA	MAZZONI	MP3	frenata.mp3
 STACCATA	MAZZONI	MP3	frenata.mp3
 DOMANDA	ROSBERG	MP3	domanda.mp3
 SONDAGGIO	ROSBERG	MP3	domanda.mp3
 HUMOR	ALONSO	MP3	humor.mp3
-ENGINE	ALONSO	MP3	gp2engine.mp3
-FUCK	VETTEL	STICKER	BQADBAADBQEAAiIMPgv2X7ZdP5Z9FgI
-FUCK	ARRIVABENE	TXT	testa bassa e lavorare
-OFF	VETTEL	STICKER	BQADBAADBQEAAiIMPgv2X7ZdP5Z9FgI
+ENGINE	ALONSO	MP3	gp2engine.mp3 
 GENI	ALONSO	MP3	gp2engine.mp3
 SCEMI	ALONSO	STICKER	BQADBAADAQIAAo-zWQOR2wt7uXUfPAI
 SEXY	ALONSO	STICKER	BQADAQADIgADuVOBDK1OuDEmY2GOAg
